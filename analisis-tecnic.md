@@ -5,7 +5,7 @@ Creamos tres variables de estado: una para que nos guarde el array que recoge de
 
 2. Creamos una función que nos cree visulamente en el DOM, tantas tarjetas como paises recogemos del array de la API. 
 
-2. Debemos poder buscar el país deseado mediante un input en la barra de búsqueda. Para ello, creamos un función que recorra todo el array de la API, y si la propiedad .name de dicho array coincide con el valor puesto en el input, llamamos a la función anteriormente mencionada, que nos crea las tarjetas. 
+2. Debemos poder filtrar los paises mediante un input en la barra de búsqueda. Para ello, creamos un función que recorra todo el array de la API, y si la propiedad .name de dicho array coincide con el valor puesto en el input, llamamos a la función anteriormente mencionada, que nos crea las tarjetas. 
 En cambio, para filtrar por región, comparamos la propiedad .region del array de la API con el valor guardado dentro de las options del botón que se despliega.
 
 3. Añadimos un listeners tanto al input para filtrar por país, como al de filtrar por región.
